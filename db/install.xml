@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XMLDB PATH="local/popupaviso/db" ID="install" VERSION="2025070700" COMMENT="Installation for local_popupaviso plugin"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../../../lib/xmldb/xmldb.xsd"
+>
+    <TABLES>
+        <TABLE NAME="local_popupaviso_popups" COMMENT="Stores multiple pop-up configurations">
+            <FIELDS>
+                <FIELD NAME="id" TYPE="int" LENGTH="10" NOTNULL="true" UNSIGNED="true" SEQUENCE="true" />
+                <FIELD NAME="name" TYPE="char" LENGTH="255" NOTNULL="true" DEFAULT="Popup" />
+                <FIELD NAME="url" TYPE="text" NOTNULL="true" />
+                <FIELD NAME="mensagem" TYPE="text" NOTNULL="true" />
+                <FIELD NAME="video" TYPE="char" LENGTH="255" NOTNULL="false" DEFAULT="" />
+                <FIELD NAME="cor" TYPE="char" LENGTH="7" NOTNULL="true" DEFAULT="#f8d7da" />
+                <FIELD NAME="limite" TYPE="int" LENGTH="10" NOTNULL="true" UNSIGNED="true" DEFAULT="1" />
+                <FIELD NAME="active" TYPE="int" LENGTH="1" NOTNULL="true" UNSIGNED="true" DEFAULT="1" />
+                <FIELD NAME="timecreated" TYPE="int" LENGTH="10" NOTNULL="true" UNSIGNED="true" />
+                <FIELD NAME="timemodified" TYPE="int" LENGTH="10" NOTNULL="true" UNSIGNED="true" />
+                <FIELD NAME="targetrole" TYPE="char" LENGTH="50" NOTNULL="true" DEFAULT="student" />
+            </FIELDS>
+            <KEYS>
+                <KEY NAME="primary" TYPE="primary" FIELDS="id" />
+            </KEYS>
+        </TABLE>
+    </TABLES>
+</XMLDB>

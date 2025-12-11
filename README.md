@@ -167,3 +167,10 @@ Este plugin é distribuído sob a licença GNU GPL v3, compatível com o Moodle.
 
 ✅ Créditos
 Desenvolvido por Moyses Costa, 2025.
+
+![Moodle Plugin](https://img.shields.io/badge/Moodle-Local%20Plugin-2a7fff)
+![Moodle Version](https://img.shields.io/badge/Moodle-4.0%2B-blue)
+![PHP Version](https://img.shields.io/badge/PHP-8.0%2B-777bb4)
+![License: GPL v3](https://img.shields.io/badge/License-GPLv3-green)
+![Status](https://img.shields.io/badge/Status-Estável-success)
+![Release](https://img.shields.io/badge/Release-1.0.0-blueviolet)

@@ -140,6 +140,7 @@ Por padrão, apenas **manager** tem permissão.
 
 ## ✅ Estrutura do plugin
 
+```text
 local/popupaviso/
 ├── admin/
 │   ├── manage.php
@@ -159,6 +160,7 @@ local/popupaviso/
 ├── version.php
 ├── lib.php
 └── styles.css
+```
 
 
 ---

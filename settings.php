@@ -45,3 +45,5 @@ if ($hassiteconfig) {
  *
  * @package    local_popupaviso
  * @copyright  2025 Created by Moyses Costa<
+ * // --- IGNORE --->
+ */

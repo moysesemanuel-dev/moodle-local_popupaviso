@@ -1,4 +1,4 @@
-📌 Plugin Popup de Aviso — Moodle (local_popupaviso)
+##📌 Plugin Popup de Aviso — Moodle (local_popupaviso)
 O Popup de Aviso é um plugin local para Moodle que permite criar, gerenciar e exibir pop-ups personalizados para usuários, com filtros por URL, papéis (roles) e limite de exibição por sessão. Ele é ideal para:
 
 avisos institucionais
@@ -13,18 +13,18 @@ exibição de vídeos informativos (YouTube)
 
 O plugin foi desenvolvido seguindo os padrões do Moodle e é compatível com Moodle 4.0 ou superior.
 
-✅ Funcionalidades
+##✅ Funcionalidades
 ✅ Exibição automática de pop-ups
 Os pop-ups são exibidos automaticamente antes do rodapé da página, usando o hook before_footer.
 
-✅ Filtros avançados
+##✅ Filtros avançados
 Por URL Exibe o popup apenas em páginas específicas.
 
 Por papel (role) Suporte a: student, teacher, manager.
 
 Por limite de exibição Controla quantas vezes o popup aparece por sessão do navegador.
 
-✅ Conteúdo rico
+##✅ Conteúdo rico
 Mensagem em HTML
 
 Suporte a vídeo do YouTube
@@ -33,7 +33,7 @@ Cor de fundo personalizada
 
 Botão de fechar com controle de sessão
 
-✅ Administração completa
+##✅ Administração completa
 Criar, editar e excluir pop-ups
 
 Listagem com resumo das mensagens
@@ -42,14 +42,14 @@ Interface amigável usando MoodleForms
 
 Página dedicada no menu de administração
 
-✅ Armazenamento em tabela própria
+##✅ Armazenamento em tabela própria
 O plugin cria a tabela:
 
 Código
 local_popupaviso_popups
 Com campos como: nome, mensagem, URL, vídeo, cor, limite, ativo, papel-alvo, timestamps etc.
 
-✅ Instalação
+##✅ Instalação
 Baixe ou clone o plugin para:
 
 Código
@@ -60,14 +60,14 @@ O Moodle detectará o plugin automaticamente.
 
 Siga o processo de instalação.
 
-✅ Atualização
+##✅ Atualização
 O plugin inclui um arquivo upgrade.php que gerencia atualizações de versão. Ao atualizar o código:
 
 Acesse Administração do site → Notificações
 
 O Moodle executará automaticamente as migrações necessárias.
 
-✅ Configuração
+##✅ Configuração
 Após instalar:
 
 Acesse Administração do site → Plugins → Plugins locais → Popup de Aviso
@@ -86,7 +86,7 @@ Excluir pop-ups
 
 Ver lista completa
 
-✅ Como funciona a exibição dos pop-ups
+##✅ Como funciona a exibição dos pop-ups
 A classe:
 
 Código
@@ -119,7 +119,7 @@ JavaScript para controle de sessão
 
 Vídeo do YouTube (opcional)
 
-✅ Estrutura da tabela (install.xml)
+##✅ Estrutura da tabela (install.xml)
 A tabela local_popupaviso_popups contém:
 
 Campo	Tipo	Descrição
@@ -134,14 +134,14 @@ active	int(1)	Ativo/inativo
 timecreated	int	Timestamp
 timemodified	int	Timestamp
 targetrole	char(50)	Papel alvo
-✅ Permissões
+##✅ Permissões
 O plugin define a capability:
 
 Código
 local/popupaviso:view
 Por padrão, apenas manager tem permissão.
 
-✅ Estrutura do plugin
+##✅ Estrutura do plugin
 Código
 local/popupaviso/
 ├── admin/
@@ -162,10 +162,10 @@ local/popupaviso/
 ├── version.php
 ├── lib.php
 └── styles.css
-✅ Licença
+##✅ Licença
 Este plugin é distribuído sob a licença GNU GPL v3, compatível com o Moodle.
 
-✅ Créditos
+##✅ Créditos
 Desenvolvido por Moyses Costa, 2025.
 
 ![Moodle Plugin](https://img.shields.io/badge/Moodle-Local%20Plugin-2a7fff)

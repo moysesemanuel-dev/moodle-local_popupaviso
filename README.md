@@ -1,4 +1,4 @@
-##📌 Plugin Popup de Aviso — Moodle (local_popupaviso)
+# 📌 Plugin Popup de Aviso — Moodle (local_popupaviso)
 O Popup de Aviso é um plugin local para Moodle que permite criar, gerenciar e exibir pop-ups personalizados para usuários, com filtros por URL, papéis (roles) e limite de exibição por sessão. Ele é ideal para:
 
 avisos institucionais
